@@ -1,0 +1,21 @@
+{
+  "custom_classes": 1,
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "ManvsWoman_66993510",
+          "classes": [
+            {
+              "class": "female",
+              "score": 0.538352
+            }
+          ],
+          "name": "ManvsWoman"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+140401.JPG"
+    }
+  ],
+  "images_processed": 1
+}

@@ -4,16 +4,17 @@ from os.path import join, dirname
 from os import environ
 from watson_developer_cloud import VisualRecognitionV3 as VisualRecognition
 
-os.chdir("../sources/mix/male")
+os.chdir("../sources/mix/female")
 
-visual_recognition = VisualRecognition('2016-05-20', api_key='8db55a029e23a6d20c91b8592708fed5f4fe07db')
+visual_recognition = VisualRecognition('2016-05-20', api_key='43c028b896a8000ff57bc2a4d4d0a48619077370')
 
 # delete custom classifier 
+# print(json.dumps(visual_recognition.delete_classifier(classifier_id='ManvsWoman_541743446'), indent=2))
 
 # create a classifier between man and woman
-# with open(join(dirname(__file__), '../sources/mix/male.zip'), 'rb') as male, \
-# 	open(join(dirname(__file__), '../sources/mix/female.zip'), 'rb') as female:
-#     print(json.dumps(visual_recognition.create_classifier('ManvsWoman', male_positive_examples=male, negative_examples=female), indent=2))
+# with open(join(dirname(__file__), '../male.zip'), 'rb') as male, \
+# 	open(join(dirname(__file__), '../female.zip'), 'rb') as female:
+#     print(json.dumps(visual_recognition.create_classifier('ManvsWoman', female_positive_examples=female, negative_examples=male), indent=2))
 
 print(json.dumps(visual_recognition.list_classifiers(), indent=2))
 
@@ -22,7 +23,7 @@ for file in glob.glob("*.jpg"):
 	with open(join(dirname(__file__), file), 'rb') as image_file, \
 		open(file.replace(".JPG",".JSON"), 'w') as outfile:
 			json.dump(visual_recognition.classify(images_file=image_file, \
-				classifier_ids=["ManvsWoman_1309697865", "default"]), outfile, indent=2)
+				classifier_ids=["ManvsWoman_66993510"]), outfile, indent=2)
 			print(image_file)
 
 
