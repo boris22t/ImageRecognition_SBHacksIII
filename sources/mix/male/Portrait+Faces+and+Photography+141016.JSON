@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.577687
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "soul patch facial hair",
+              "score": 0.774
+            },
+            {
+              "class": "mustachio",
+              "score": 0.709
+            },
+            {
+              "class": "stubble",
+              "score": 0.674
+            },
+            {
+              "class": "beard",
+              "type_hierarchy": "/person/beard",
+              "score": 0.554
+            },
+            {
+              "class": "person",
+              "score": 0.566
+            },
+            {
+              "class": "black color",
+              "score": 0.98
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+141016.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

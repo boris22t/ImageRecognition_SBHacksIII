@@ -1,0 +1,48 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.602936
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "beard",
+              "type_hierarchy": "/person/beard",
+              "score": 0.926
+            },
+            {
+              "class": "person",
+              "score": 0.93
+            },
+            {
+              "class": "stubble",
+              "score": 0.554
+            },
+            {
+              "class": "ash grey color",
+              "score": 0.898
+            },
+            {
+              "class": "gray color",
+              "score": 0.824
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+141113.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

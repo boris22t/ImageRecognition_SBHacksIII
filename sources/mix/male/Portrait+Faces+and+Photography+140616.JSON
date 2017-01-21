@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.554884
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "fedora (felt hat)",
+              "type_hierarchy": "/headdress/fedora (felt hat)",
+              "score": 0.647
+            },
+            {
+              "class": "hat",
+              "score": 0.792
+            },
+            {
+              "class": "headdress",
+              "score": 0.792
+            },
+            {
+              "class": "cowboy hat",
+              "type_hierarchy": "/headdress/cowboy hat",
+              "score": 0.626
+            },
+            {
+              "class": "male person",
+              "score": 0.565
+            },
+            {
+              "class": "person",
+              "score": 0.652
+            },
+            {
+              "class": "face",
+              "type_hierarchy": "/person/face",
+              "score": 0.554
+            },
+            {
+              "class": "charcoal color",
+              "score": 0.926
+            },
+            {
+              "class": "coal black color",
+              "score": 0.861
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+140616.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

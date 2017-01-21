@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.556088
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "face",
+              "type_hierarchy": "/person/face",
+              "score": 0.713
+            },
+            {
+              "class": "person",
+              "score": 0.815
+            },
+            {
+              "class": "beard",
+              "type_hierarchy": "/person/beard",
+              "score": 0.579
+            },
+            {
+              "class": "stubble",
+              "score": 0.571
+            },
+            {
+              "class": "turtleneck",
+              "type_hierarchy": "/garment/sweater/turtleneck",
+              "score": 0.554
+            },
+            {
+              "class": "sweater",
+              "score": 0.555
+            },
+            {
+              "class": "garment",
+              "score": 0.555
+            },
+            {
+              "class": "coal black color",
+              "score": 0.959
+            },
+            {
+              "class": "black color",
+              "score": 0.904
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+150209-2.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

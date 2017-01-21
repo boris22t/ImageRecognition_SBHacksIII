@@ -1,0 +1,58 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.554987
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "face",
+              "type_hierarchy": "/person/face",
+              "score": 0.662
+            },
+            {
+              "class": "person",
+              "score": 0.702
+            },
+            {
+              "class": "cloth cap",
+              "type_hierarchy": "/headdress/cloth cap",
+              "score": 0.598
+            },
+            {
+              "class": "cap",
+              "score": 0.717
+            },
+            {
+              "class": "headdress",
+              "score": 0.717
+            },
+            {
+              "class": "watch cap",
+              "type_hierarchy": "/headdress/watch cap",
+              "score": 0.554
+            },
+            {
+              "class": "coal black color",
+              "score": 0.975
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+141228.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

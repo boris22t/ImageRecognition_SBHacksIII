@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.553275
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "person",
+              "score": 0.861
+            },
+            {
+              "class": "male person",
+              "score": 0.635
+            },
+            {
+              "class": "face",
+              "type_hierarchy": "/person/face",
+              "score": 0.59
+            },
+            {
+              "class": "soul patch facial hair",
+              "score": 0.554
+            },
+            {
+              "class": "coal black color",
+              "score": 0.853
+            },
+            {
+              "class": "black color",
+              "score": 0.748
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+140921.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}
