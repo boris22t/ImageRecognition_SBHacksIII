@@ -27,9 +27,6 @@ for file in glob.glob("*.jpg"):
 			print(image_file)
 
 
-# detect the face of a picture of a woman
-# print(json.dumps(visual_recognition.detect_faces(images_url='https://www.ibm.com/ibm/ginni/images/ginni_bio_780x981_v4_03162016.jpg'), indent=2))
-
 # generating custom classifiers, inputing negative and positive examples
 
 # with open(join(dirname(__file__), '../resources/trucks.zip'), 'rb') as trucks, \

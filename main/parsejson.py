@@ -14,17 +14,13 @@ class ClassCounter(object):
 
 # updates the list elements
 def update_class(obj_class, listobj):
-	if len(listobj):
-		obj = ClassCounter(obj_class)
-		listobj.append(obj)
-	else:
-		for x in listobj:
-			if (x.name == obj_class):
-				x.count += 1
-
+	for x in listobj:
+		if (x.name == obj_class.name):
+			x.inc()
+			return
+	listobj.append(obj_class)
 	# else:
 	# 	listobj.append(obj)
-
 
 # change the directory to access source images
 os.chdir("../sources/mix/male")
@@ -32,33 +28,32 @@ os.chdir("../sources/mix/male")
 # predefined classifier id obtained via pre-training
 classifiers_id = "ManvsWoman"
 
-
 # parsing the json files
+myList = []
 for file in glob.glob("*.json"):
-	with open(join(dirname(__file__), file), 'r') as data_file:    
-		data = json.load(data_file)
+    with open(join(dirname(__file__), file), 'r') as data_file:    
+        data = json.load(data_file)
 # only want classification from custom classifier
-		accessor = data['images'][0]['classifiers'][0]
-		if( classifiers_id in accessor['name']):
-			myList = []
-			obj_class = accessor['classes'][0]['class']
-			update_class(obj_class, myList)
+        accessor = data['images'][0]['classifiers'][0]
+        if( classifiers_id in accessor['name']):
+            myObj = ClassCounter(accessor['classes'][0]['class'])
+            update_class(myObj, myList)
 
 for p in myList:
-	print(p.name)
-	print(p.count)
+    print(p.name)
+    print(p.count)
 
 # arraylist of objects
 # object counter = {
-# 	name = 'male',
-# 	count = 0
+#     name = 'male',
+#     count = 0
 # }
 
-# for every male found 
-# 	count increments
+# for every male found
+#     count increments
 
-# in the arraylist, many categories, for example (male, female, cat, orange) 
-# 	sort the arraylist with comparator of the count
+# in the arraylist, many categories, for example (male, female, cat, orange)
+#     sort the arraylist with comparator of the count
 
 # select the top 5 categories
 
