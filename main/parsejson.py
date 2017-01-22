@@ -42,14 +42,8 @@ for file in glob.glob("*.json"):
 for p in myList:
 	print(p.name + ' ')
 	print(p.count)
-# arraylist of objects
-# object counter = {
-#     name = 'male',
-#     count = 0
-# }
 
-# for every male found
-#     count increments
+sorted(myList, key=lambda obj: obj.count)
 
 # in the arraylist, many categories, for example (male, female, cat, orange)
 #     sort the arraylist with comparator of the count
