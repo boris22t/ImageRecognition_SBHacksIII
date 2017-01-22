@@ -23,7 +23,7 @@ def update_class(obj_class, listobj):
 	# 	listobj.append(obj)
 
 # change the directory to access source images
-os.chdir("../sources/mix/male")
+os.chdir("../sources/mix/both")
 
 # predefined classifier id obtained via pre-training
 classifiers_id = "ManvsWoman"
@@ -40,9 +40,8 @@ for file in glob.glob("*.json"):
             update_class(myObj, myList)
 
 for p in myList:
-    print(p.name)
-    print(p.count)
-
+	print(p.name + ' ')
+	print(p.count)
 # arraylist of objects
 # object counter = {
 #     name = 'male',

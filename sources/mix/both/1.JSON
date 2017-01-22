@@ -1,0 +1,58 @@
+{
+   "images": [
+     {
+       "classifiers": [
+         {
+           "classes": [
+             {
+               "class": "male",
+               "score": 0.5563
+             }
+           ],
+           "classifier_id": "ManvsWoman_1309697865",
+           "name": "ManvsWoman_1309697865"
+         },
+         {
+           "classes": [
+             {
+               "class": "stubble",
+               "score": 0.715
+             },
+             {
+               "class": "beard",
+               "type_hierarchy": "/person/beard",
+               "score": 0.641
+             },
+             {
+               "class": "person",
+               "score": 0.88
+             },
+             {
+               "class": "male person",
+               "score": 0.592
+             },
+             {
+               "class": "face",
+               "type_hierarchy": "/person/face",
+               "score": 0.569
+             },
+             {
+               "class": "actor",
+               "type_hierarchy": "/person/actor",
+               "score": 0.554
+             },
+             {
+               "class": "black color",
+               "score": 0.997
+             }
+           ],
+           "classifier_id": "default",
+           "name": "default"
+         }
+       ],
+       "image": "1.JPG"
+     }
+   ],
+   "custom_classes": 1,
+   "images_processed": 1
+ }

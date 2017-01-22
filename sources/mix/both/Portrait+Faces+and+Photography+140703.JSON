@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.55573
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "person",
+              "score": 0.878
+            },
+            {
+              "class": "people",
+              "type_hierarchy": "/person/people",
+              "score": 0.554
+            },
+            {
+              "class": "coal black color",
+              "score": 0.998
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+140703.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}

@@ -1,0 +1,66 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "class": "male",
+              "score": 0.551971
+            }
+          ],
+          "classifier_id": "ManvsWoman_1309697865",
+          "name": "ManvsWoman_1309697865"
+        },
+        {
+          "classes": [
+            {
+              "class": "male person",
+              "score": 0.603
+            },
+            {
+              "class": "person",
+              "score": 0.834
+            },
+            {
+              "class": "actor",
+              "type_hierarchy": "/person/actor",
+              "score": 0.595
+            },
+            {
+              "class": "young man",
+              "type_hierarchy": "/juvenile person/young man",
+              "score": 0.585
+            },
+            {
+              "class": "juvenile person",
+              "score": 0.587
+            },
+            {
+              "class": "face",
+              "type_hierarchy": "/person/face",
+              "score": 0.575
+            },
+            {
+              "class": "pompadour hairstyle",
+              "score": 0.554
+            },
+            {
+              "class": "black color",
+              "score": 0.96
+            },
+            {
+              "class": "coal black color",
+              "score": 0.861
+            }
+          ],
+          "classifier_id": "default",
+          "name": "default"
+        }
+      ],
+      "image": "Portrait+Faces+and+Photography+140928.JPG"
+    }
+  ],
+  "custom_classes": 1,
+  "images_processed": 1
+}
