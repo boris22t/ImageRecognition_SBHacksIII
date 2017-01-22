@@ -1,3 +1,13 @@
+#--------------------------------------------------
+#  Project Title: GenderPhotoSorter
+#  Authors: Boris Tam, Jason Zhau, Salud Lemus
+#  Version: 1/22/17
+#
+#  Descritipn:
+#  This program creates custom classifiers for genders in 
+#  a picture
+#--------------------------------------------------
+
 import json
 import glob, os
 from os.path import join, dirname
